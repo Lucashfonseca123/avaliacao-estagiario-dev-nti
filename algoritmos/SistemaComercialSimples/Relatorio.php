@@ -35,7 +35,7 @@
       <?php
          $sql = mysqli_query($con,"SELECT codigo, quantidade FROM cliente") or die("Erro");    //Faz uma consulta em clientes para fazer o preço
          while($dados=mysqli_fetch_assoc($sql)){                         //$dados recebe todo o conteudo da consulta
-         $sql2 = mysqli_query($con,"SELECT nome, codigo, valor_unit, quantidade FROM produto") or die("Erro"); //Consulta em produto
+           $sql2 = mysqli_query($con,"SELECT nome, codigo, valor_unit, quantidade FROM produto") or die("Erro"); //Consulta em produto
            while($dados2=mysqli_fetch_assoc($sql2))                        //$dados2 recebe todo o conteudo da consulta
              { 
              if($i==0){                                    //If para printar apenas 1 vez cada 
@@ -81,7 +81,7 @@
     <?php
         $sql = mysqli_query($con,"SELECT codigo, quantidade FROM cliente") or die("Erro"); 
         while($dados=mysqli_fetch_assoc($sql)){                         //$dados recebe todo o conteudo da consulta
-            $sql2 = mysqli_query($con,"SELECT nome, codigo, valor_unit, quantidade FROM produto") or die("Erro"); //Consulta em produto
+              $sql2 = mysqli_query($con,"SELECT nome, codigo, valor_unit, quantidade FROM produto") or die("Erro"); //Consulta em produto
               while($dados2=mysqli_fetch_assoc($sql2)) {
                  if($dados['codigo'] == $dados2['codigo'] ){ 
                  echo "<br>Numero da venda ".$dados2['codigo'];
