@@ -1,5 +1,5 @@
 <?php 
-	require ('Conexao.php');
+ 	require ('Conexao.php');
 
 	$i = 0;
 	$tot = 0;
