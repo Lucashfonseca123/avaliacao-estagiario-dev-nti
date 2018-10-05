@@ -1,5 +1,5 @@
 
-# Algoritmos 1
+# Algoritmos 
 
 Organize a resolução de cada uma das questões em uma pasta separada dentro da pasta `algoritmos`, cada pasta deve ter o nome com o número da questão que resolve. Dentro da pasta é obrigatória a existência de um arquivo `README.md` que descreva a linguagem utilizada e o grau de dificuldade que teve para resolver a questão, se precisou de pesquisa, etc.
 
